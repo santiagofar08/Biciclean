@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Bicicletas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .bicicleta {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            margin: 10px;
+            width: 30%; /* 3 tarjetas por fila */
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Bicicletas</h1>
+    </header>
+
+    <div class="catalogo">
+        <div class="bicicleta">
+            <img src="bicicleta1.jpg" alt="Bicicleta 1">
+            <h2>Bicicleta Montaña</h2>
+            <p>Precio: $500</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta2.jpg" alt="Bicicleta 2">
+            <h2>Bicicleta Ruta</h2>
+            <p>Precio: $600</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta3.jpg" alt="Bicicleta 3">
+            <h2>Bicicleta Eléctrica</h2>
+            <p>Precio: $1200</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta4.jpg" alt="Bicicleta 4">
+            <h2>Bicicleta Urbana</h2>
+            <p>Precio: $400</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta5.jpg" alt="Bicicleta 5">
+            <h2>Bicicleta Infantil</h2>
+            <p>Precio: $250</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta6.jpg" alt="Bicicleta 6">
+            <h2>Bicicleta de Carga</h2>
+            <p>Precio: $800</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta7.jpg" alt="Bicicleta 7">
+            <h2>Bicicleta de Paseo</h2>
+            <p>Precio: $300</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta8.jpg" alt="Bicicleta 8">
+            <h2>Bicicleta de Competición</h2>
+            <p>Precio: $1500</p>
+        </div>
+        <div class="bicicleta">
+            <img src="bicicleta9.jpg" alt="Bicicleta 9">
+            <h2>Bicicleta Híbrida</h2>
+            <p>Precio: $700</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bicicletaria XYZ</p>
+    </footer>
+</body>
+</html>
